@@ -1,0 +1,158 @@
+{
+  "updated": "2026-10-04",
+  "previousUpdate": null,
+  "thesis": {
+    "title": "A Framework for Evaluating the Real-World Performance of Turkish Large Language Models",
+    "author": "Atahan Uz",
+    "advisor": "Dr. Suzan Üsküdarlı",
+    "plan": "Apr 2026 – Jan 2027"
+  },
+  "sections": [
+    {
+      "id": "framework",
+      "name": "Framework",
+      "ref": "§4.1",
+      "items": [
+        {
+          "id": "turkeval",
+          "name": "TurkEval framework",
+          "ref": "§4.1.1",
+          "desc": "Open-source, API-based evaluation harness; every run is fingerprinted by a reproducible Run Hash.",
+          "pct": 50,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "studies",
+      "name": "Studies",
+      "ref": "§4.3",
+      "items": [
+        {
+          "id": "prompting",
+          "name": "Prompting style",
+          "ref": "§4.3.1",
+          "desc": "How prompt language, format, few-shot examples, chain-of-thought and output format move Turkish scores.",
+          "pct": 50,
+          "note": ""
+        },
+        {
+          "id": "quantization",
+          "name": "Quantization",
+          "ref": "§4.3.2",
+          "desc": "Accuracy across FP8, INT8, INT4, AWQ, GPTQ and NVFP4 with sampling parameters held fixed.",
+          "pct": 0,
+          "note": ""
+        },
+        {
+          "id": "hyperparameters",
+          "name": "Hyperparameters",
+          "ref": "§4.3.1",
+          "desc": "Temperature, top-k, top-p and repetition-penalty grid for closed- versus open-ended tasks.",
+          "pct": 0,
+          "note": ""
+        },
+        {
+          "id": "human-validation",
+          "name": "Human validation",
+          "ref": "§6.5",
+          "desc": "Native-speaker annotators grade model outputs; agreement with automated and LLM-judge scores.",
+          "pct": 0,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "benchmarks",
+      "name": "Benchmarks",
+      "ref": "§4.2",
+      "items": [
+        {
+          "id": "translation",
+          "name": "TR–EN translation",
+          "ref": "§4.2.6",
+          "desc": "Bidirectional translation of regular, formatted and long text; BLEU/COMET plus human review.",
+          "pct": 100,
+          "note": ""
+        },
+        {
+          "id": "instruction-following",
+          "name": "Instruction following",
+          "ref": "§4.2.2",
+          "desc": "IFEval-Turkish: 1,041 prompts (541 translated, 500 native) with strict and morphology-aware checks.",
+          "pct": 100,
+          "note": ""
+        },
+        {
+          "id": "yks",
+          "name": "YKS",
+          "ref": "Fig. 1",
+          "desc": "Models sit every TYT and AYT question of YKS 2025 and are ranked against the 2.5M exam candidates.",
+          "pct": 80,
+          "note": ""
+        },
+        {
+          "id": "multi-turn",
+          "name": "Multi-turn conversation",
+          "ref": "§4.2.1",
+          "desc": "Turkish MultiChallenge: instruction retention, inference memory, versioned editing, self-coherence.",
+          "pct": 50,
+          "note": ""
+        },
+        {
+          "id": "long-context",
+          "name": "Long context",
+          "ref": "§4.2.4",
+          "desc": "NIAH-Turkish: needle retrieval up to 128K tokens across depths, plus a multi-needle variant.",
+          "pct": 50,
+          "note": ""
+        },
+        {
+          "id": "qa-context",
+          "name": "Q&A with context",
+          "ref": "§4.2.5",
+          "desc": "RAG-style answers from retrieved chunks; grounded accuracy versus hallucination as distractors grow.",
+          "pct": 0,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "papers",
+      "name": "Papers",
+      "ref": "",
+      "items": [
+        {
+          "id": "paper-translation",
+          "name": "Translation",
+          "ref": "",
+          "desc": "Paper on the English–Turkish translation benchmark.",
+          "pct": 100,
+          "note": "EMNLP 2026"
+        },
+        {
+          "id": "paper-yks",
+          "name": "YKS",
+          "ref": "",
+          "desc": "Paper on LLM performance in the YKS university entrance exam.",
+          "pct": 80,
+          "note": "To be submitted"
+        },
+        {
+          "id": "paper-long-context",
+          "name": "Long context",
+          "ref": "",
+          "desc": "Paper on NIAH-Turkish long-context evaluation.",
+          "pct": 0,
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-04",
+      "overall": 47.1
+    }
+  ]
+}
