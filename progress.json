@@ -17,7 +17,7 @@
           "id": "turkeval",
           "name": "TurkEval framework",
           "ref": "§4.1.1",
-          "desc": "Open-source, API-based evaluation harness; every run is fingerprinted by a reproducible Run Hash.",
+          "desc": "Open-source, API-based harness; every run pinned by a reproducible Run Hash.",
           "pct": 50,
           "note": ""
         }
@@ -32,7 +32,7 @@
           "id": "prompting",
           "name": "Prompting style",
           "ref": "§4.3.1",
-          "desc": "How prompt language, format, few-shot examples, chain-of-thought and output format move Turkish scores.",
+          "desc": "How prompt language, format, few-shot, CoT and output format move scores.",
           "pct": 50,
           "note": ""
         },
@@ -40,7 +40,7 @@
           "id": "quantization",
           "name": "Quantization",
           "ref": "§4.3.2",
-          "desc": "Accuracy across FP8, INT8, INT4, AWQ, GPTQ and NVFP4 with sampling parameters held fixed.",
+          "desc": "Accuracy across FP8, INT8, INT4, AWQ, GPTQ and NVFP4, sampling held fixed.",
           "pct": 0,
           "note": ""
         },
@@ -48,7 +48,7 @@
           "id": "hyperparameters",
           "name": "Hyperparameters",
           "ref": "§4.3.1",
-          "desc": "Temperature, top-k, top-p and repetition-penalty grid for closed- versus open-ended tasks.",
+          "desc": "Temperature, top-k, top-p and repetition-penalty grid, closed vs. open tasks.",
           "pct": 0,
           "note": ""
         },
@@ -56,7 +56,7 @@
           "id": "human-validation",
           "name": "Human validation",
           "ref": "§6.5",
-          "desc": "Native-speaker annotators grade model outputs; agreement with automated and LLM-judge scores.",
+          "desc": "Native annotators grade outputs; agreement with automatic and LLM-judge scores.",
           "pct": 0,
           "note": ""
         }
@@ -71,7 +71,7 @@
           "id": "translation",
           "name": "TR–EN translation",
           "ref": "§4.2.6",
-          "desc": "Bidirectional translation of regular, formatted and long text; BLEU/COMET plus human review.",
+          "desc": "Both directions; regular, formatted and long text; BLEU/COMET plus human review.",
           "pct": 100,
           "note": ""
         },
@@ -79,7 +79,7 @@
           "id": "instruction-following",
           "name": "Instruction following",
           "ref": "§4.2.2",
-          "desc": "IFEval-Turkish: 1,041 prompts (541 translated, 500 native) with strict and morphology-aware checks.",
+          "desc": "IFEval-Turkish: 1,041 prompts, strict and morphology-aware verification.",
           "pct": 100,
           "note": ""
         },
@@ -87,7 +87,7 @@
           "id": "yks",
           "name": "YKS",
           "ref": "Fig. 1",
-          "desc": "Models sit every TYT and AYT question of YKS 2025 and are ranked against the 2.5M exam candidates.",
+          "desc": "Models take all of YKS 2025 (TYT + AYT), ranked against 2.5M real candidates.",
           "pct": 80,
           "note": ""
         },
@@ -95,7 +95,7 @@
           "id": "multi-turn",
           "name": "Multi-turn conversation",
           "ref": "§4.2.1",
-          "desc": "Turkish MultiChallenge: instruction retention, inference memory, versioned editing, self-coherence.",
+          "desc": "Turkish MultiChallenge: retention, memory, versioned editing, self-coherence.",
           "pct": 50,
           "note": ""
         },
@@ -103,7 +103,7 @@
           "id": "long-context",
           "name": "Long context",
           "ref": "§4.2.4",
-          "desc": "NIAH-Turkish: needle retrieval up to 128K tokens across depths, plus a multi-needle variant.",
+          "desc": "NIAH-Turkish: needle retrieval up to 128K tokens, plus a multi-needle variant.",
           "pct": 50,
           "note": ""
         },
@@ -111,7 +111,7 @@
           "id": "qa-context",
           "name": "Q&A with context",
           "ref": "§4.2.5",
-          "desc": "RAG-style answers from retrieved chunks; grounded accuracy versus hallucination as distractors grow.",
+          "desc": "RAG-style answers from retrieved chunks; grounded accuracy vs. hallucination.",
           "pct": 0,
           "note": ""
         }
