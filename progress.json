@@ -41,7 +41,7 @@
           "name": "Quantization",
           "ref": "§4.3.2",
           "desc": "Accuracy across FP8, INT8, INT4, AWQ, GPTQ and NVFP4, sampling held fixed.",
-          "pct": 0,
+          "pct": 50,
           "note": ""
         },
         {
@@ -87,7 +87,7 @@
           "id": "yks",
           "name": "YKS",
           "ref": "Fig. 1",
-          "desc": "Models take all of YKS 2025 (TYT + AYT), ranked against 2.5M real candidates.",
+          "desc": "Models take all of YKS 2018–2026 (TYT + AYT), ranked against real candidates.",
           "pct": 80,
           "note": ""
         },
@@ -103,7 +103,7 @@
           "id": "long-context",
           "name": "Long context",
           "ref": "§4.2.4",
-          "desc": "NIAH-Turkish: needle retrieval up to 128K tokens, plus a multi-needle variant.",
+          "desc": "NIAH-Turkish: needle retrieval up to 256K tokens, plus a multi-needle variant.",
           "pct": 50,
           "note": ""
         },
@@ -152,7 +152,7 @@
   "history": [
     {
       "date": "2026-10-04",
-      "overall": 47.1
+      "overall": 50.7
     }
   ]
 }
